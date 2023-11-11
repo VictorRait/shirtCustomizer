@@ -37,7 +37,7 @@
 // steps in using dream api
 
 import axios from "axios";
-import fs from "fs";
+
 export async function sendTaskToDreamAPI(prompt) {
 	const BASE_URL = "https://api.luan.tools/api/tasks/";
 	const apiKey = "Zp6skQDLf57P5BwnpIeA1PTCnhyY6rsi"; // Replace with your actual Dream API key
